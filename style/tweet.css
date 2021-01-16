@@ -10,7 +10,7 @@
 }
 
 .tweet-text-container {
-    color: #ffffffbf;
+    color: snow;
     font-size: 15px;
     overflow-y: hidden;
     margin-left: 20px;
@@ -19,6 +19,7 @@
     margin-top: 20px;
     margin-bottom: 10px;
 }
+
 
 .tweet-user-info {
     margin-left: 20px;
@@ -97,19 +98,23 @@
     left: 0%;
 }
 
-/* .tweets-welcome-message {
-    color: white;
+.tweets-welcome-message {
+    color: snow;
     text-align: center;
     max-width: 80%;
     margin: 0 auto;
-} */
+}
 
 
-
-
-
-
-
+.tweets-welcome-message h5 {
+    margin-top: 10;
+}
+    
+    
+.tweets-welcome-message p {
+    font-size: 10px;
+}
+    
 .tweet-date-container {
     color: #47525d;
     font-size: 10px;
